@@ -16,7 +16,7 @@ Deploy resources to master and all member accounts
 * install [nodejs][3]
 * cd org-formation
 * run 'npm install'
-* run `npx org-formation process-tasks --profile master-profile --verbose --print-stack organization-tasks.yaml`
+* run `npx org-formation process-tasks --profile master-profile --verbose --print-stack _tasks.yaml`
 
 __Note__: master-profile is a profile that can assume the account's `organizations-admin` role
 
